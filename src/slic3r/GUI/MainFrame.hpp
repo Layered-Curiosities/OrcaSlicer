@@ -91,6 +91,7 @@ class Retraction_Test_Dlg;
 class Input_Shaping_Freq_Test_Dlg;
 class Input_Shaping_Damp_Test_Dlg;
 class Cornering_Test_Dlg;
+class SeamCalibration_Dlg;
 template <class Panel> class LazyPage;
 class Plater;
 #ifdef SLIC3R_CAD
@@ -509,6 +510,7 @@ public:
     Input_Shaping_Freq_Test_Dlg* m_IS_freq_calib_dlg{ nullptr };
     Input_Shaping_Damp_Test_Dlg* m_IS_damp_calib_dlg{ nullptr };
     Cornering_Test_Dlg* m_cornering_calib_dlg{ nullptr };
+    SeamCalibration_Dlg* m_seam_calib_dlg{ nullptr };
 
     // BBS. Replace title bar and menu bar with top bar.
     BBLTopbar*            m_topbar{ nullptr };
